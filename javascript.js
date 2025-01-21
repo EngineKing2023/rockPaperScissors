@@ -63,8 +63,7 @@ function getHumanChoice(){
 
         if(humanChoice===computerChoice) {
             console.log("draw");
-            humanScore = 0;
-         computerScore = 0;
+            
             
         } 
                 else if (humanChoice === "paper" && computerChoice === "scissors"){
@@ -104,5 +103,5 @@ playGame(times);
 }
 
   }
-  playGame(6);
+  playGame(5);
   
